@@ -131,7 +131,7 @@ async def inline_query(client, query):
         answers.append(InlineQueryResultArticle(
                 title="♻️ Bypass Usage: In Line",
                 input_message_content=InputTextMessageContent(
-                    '''<b><i>FZ Bypass Bot!</i></b>
+                    '''<b><i>Pid Bypass Bot!</i></b>
     
     <i>A Powerful Elegant Multi Threaded Bot written in Python... which can Bypass Various Shortener Links, Scrape links, and More ... </i>
     
@@ -139,7 +139,7 @@ async def inline_query(client, query):
                 ),
                 description="Bypass via !bp [link]",
                 reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("FZ Channel", url="https://t.me/FXTorrentz"),
+                        [InlineKeyboardButton("Channel", url="https://t.me/panimeid"),
                         InlineKeyboardButton('Try Bypass', switch_inline_query_current_chat="!bp ")]
                 ])
             ))
